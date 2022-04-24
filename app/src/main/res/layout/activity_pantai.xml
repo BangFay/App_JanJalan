@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellowEst"
+    android:orientation="vertical"
+    tools:context=".Pantai">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:src="@drawable/airterjun"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="Pantai Bala Sektai"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Lokasi: Desa Pasir Tinggi, Kab. Simeulue, Aceh"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginBottom="30dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:text="@string/destinasi_wisata_alam_pertama_adalah_pantai_bala_sektai_tempat_wisata_ini_berada_di_desa_pasir_tinggi_kecamatan_teupah_selatan_kab_simeulue_aceh_destinasi_wisata_ini_sangat_cocok_dikunjungi_buat_kamu_yang_suka_dengan_suasana_pantai_tropis_n_npantai_bala_sektai_memiliki_pesona_alam_yang_indah_dan_alami_ditambah_air_yang_berwana_biru_dan_jernih_sehingga_membuat_mata_menjadi_segar_dan_full_senyum_objek_wisata_ini_juga_dekat_dengan_beberapa_destinasi_wisata_lainnya_sehingga_kamu_tidak_perlu_repot_repot_pergi_jauh_untuk_mencari_tempat_liburan_lagi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>

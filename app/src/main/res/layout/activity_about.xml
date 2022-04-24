@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_lengkung"
+        android:text="@string/tentang_aplikasi"
+        android:textAlignment="center"
+        android:fontFamily="@font/mmedium"
+        android:textColor="@color/white"
+        android:textSize="12pt" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="172dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/fairuz"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="@string/aplikasi_janjalan"
+        android:textColor="@color/black"
+        android:fontFamily="@font/mmedium"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:textColor="@color/black"
+        android:text="@string/assalamu_alaikum_perkenalkan_saya_fairuz_fatin_dari_kelas_s1_si03_angkatan_tahun_2020_n_ndengan_perasaan_bangga_saya_memperkenalkan_aplikasi_pertama_buatan_saya_sendiri_yakni_janjalan_naplikasi_ini_merupakan_sebuah_wadah_untuk_memperkenalkan_destinasi_pariwisata_daerah_kepada_banyak_orang_nnamun_di_sisi_lain_saya_juga_menyadari_bahwa_aplikasi_ini_masih_sangat_jauh_dari_sempurna_tapi_bagi_saya_ini_merupakan_sebuah_langkah_awal_yang_cukup_baik_untuk_terus_belajar_dan_mengmbangkan_kemampuan"
+        android:fontFamily="@font/mlight"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"
+        android:textColor="@color/black"
+        android:text="@string/projek_ini_saya_buat_untuk_memenuhi_tugas_responsi_matakuliah_bahasa_pemrograman_ii_nberikut_adalah_ketentuan_ketentuan_yang_sudah_terpenuhi_n1_menggunakan_minimal_4_jenis_view_n2_menggunakan_salah_satu_jenis_layout_n3_menggunakan_intens_n4_menggunakan_kontrol_input_n5_menggunakan_recycler_view_disini_saya_menggunakan_scroll_view"
+        android:fontFamily="@font/mmedium"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        android:textColor="@color/black"
+        android:text="@string/developed_by_fairuz_fatin_20_12_1603"
+        android:fontFamily="@font/mlight"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/btkembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/kembali"
+        app:backgroundTint="@color/yellowEst" />
+
+    </LinearLayout>
+</ScrollView>
